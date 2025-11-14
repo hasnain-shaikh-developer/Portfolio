@@ -132,9 +132,9 @@ const Portfolio = () => {
 
       {/* Social Media Bar - Same as before */}
       <div className="social-bar">
-        <a href="#" className="social-link" title="Email">
+        {/* <a href="#" className="social-link" title="Email">
           📩
-        </a>
+        </a> */}
         <a href="https://www.linkedin.com/in/hasnain-shaikh-502008339" className="social-link" title="LinkedIn">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-label="LinkedIn">
            <rect x="1" y="1" width="22" height="22" rx="4" fill="#0A66C2"/>
