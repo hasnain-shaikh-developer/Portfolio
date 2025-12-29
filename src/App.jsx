@@ -40,7 +40,7 @@ const Portfolio = () => {
     setIsMenuOpen(false);
   };
 
-  const skills = ['HTML', 'CSS', 'Bootstrap', 'Tailwind', 'JavaScript', 'Typescript', 'React', 'Firebase', 'Node.js', 'Express.js', 'MongoDB', 'Git', 'GitHub'];
+  const skills = ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'MongoDB', 'Express.js', 'React.js', 'Node.js', 'Firebase', 'Git', 'GitHub'];
 
   const projects = [
     {
@@ -130,11 +130,27 @@ const Portfolio = () => {
         )}
       </nav>
 
-      {/* Social Media Bar - Same as before */}
-      <div className="social-bar">
-        {/* <a href="#" className="social-link" title="Email">
-          📩
-        </a> */}
+      {/* Hero Section - Same as before */}
+      <section id="home" className={`hero ${visibleSections.has('home') ? 'visible' : ''}`}>
+        <div className="container">
+          <div className="hero-container">
+            <div className="hero-content">
+              <h1 className="hero-title">
+                Hi, I'm <span className="gradient-text">Hasnain Shaikh</span>
+              </h1>
+              <h2 className="hero-subtitle">Full Stack Web Developer (MERN Focused)</h2>
+              <p className="hero-tagline">
+                I craft exceptional digital experiences that merge cutting-edge technology 
+                with intuitive design, turning complex ideas into elegant solutions.
+              </p>
+              <div className="hero-buttons">
+                <button className="btn-primary" onClick={() => scrollToSection('projects')}>
+                  View My Work
+                </button>
+                <button className="btn-secondary" onClick={() => scrollToSection('contact')}>
+                  Let's Connect
+                </button>
+                {/* Social Media Bar - Same as before */}
         <a href="https://www.linkedin.com/in/hasnain-shaikh-502008339" className="social-link" title="LinkedIn">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-label="LinkedIn">
            <rect x="1" y="1" width="22" height="22" rx="4" fill="#0A66C2"/>
@@ -147,36 +163,6 @@ const Portfolio = () => {
   <path fill="#ffffff" d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.5v-1.9c-3.2.7-3.9-1.5-3.9-1.5-.5-1.1-1.2-1.4-1.2-1.4-1-.7.1-.7.1-.7 1.1.1 1.6 1.1 1.6 1.1 1 .1.6 2.1 3.5 1.5.1-.7.4-1.1.7-1.4-2.6-.3-5.4-1.3-5.4-5.9 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.7.9 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.4 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.6.8.5A11.6 11.6 0 0 0 23.5 12C23.5 5.7 18.3.5 12 .5z"/>
 </svg>
         </a>
-        <a href="https://www.instagram.com/coding_460?igsh=NXIyZjM3emM1MXVx" className="social-link" title="Twitter">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-label="Instagram" viewBox="0 0 24 24">
-  <rect width="24" height="24" fill="#E1306C" rx="6"/>
-  <path fill="#ffffff" d="M16.98 2H7.02C4.25 2 2 4.25 2 7.02v9.96C2 19.75 4.25 22 7.02 22h9.96C19.75 22 22 19.75 22 16.98V7.02C22 4.25 19.75 2 16.98 2zM20 16.98A3.02 3.02 0 0 1 16.98 20H7.02A3.02 3.02 0 0 1 4 16.98V7.02A3.02 3.02 0 0 1 7.02 4h9.96A3.02 3.02 0 0 1 20 7.02v9.96z"/>
-  <path fill="#ffffff" d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4z"/>
-  <circle cx="17.5" cy="6.5" r="1.5" fill="#ffffff"/>
-</svg>
-        </a>
-      </div>
-
-      {/* Hero Section - Same as before */}
-      <section id="home" className={`hero ${visibleSections.has('home') ? 'visible' : ''}`}>
-        <div className="container">
-          <div className="hero-container">
-            <div className="hero-content">
-              <h1 className="hero-title">
-                Hi, I'm <span className="gradient-text">Hasnain Shaikh</span>
-              </h1>
-              <h2 className="hero-subtitle">Full Stack Developer & UI Designer</h2>
-              <p className="hero-tagline">
-                I craft exceptional digital experiences that merge cutting-edge technology 
-                with intuitive design, turning complex ideas into elegant solutions.
-              </p>
-              <div className="hero-buttons">
-                <button className="btn-primary" onClick={() => scrollToSection('projects')}>
-                  View My Work
-                </button>
-                <button className="btn-secondary" onClick={() => scrollToSection('contact')}>
-                  Let's Connect
-                </button>
               </div>
             </div>
             <div className="hero-image">
@@ -199,18 +185,15 @@ const Portfolio = () => {
           <div className="about-content">
             <h2 className="section-title">About Me</h2>
             <p className="about-text">
-              I'm a passionate full-stack developer specializing in modern web technologies. 
-              I have strong skills in frontend development with React.js and backend with Node.js.
+              I work with the MERN stack to build scalable and user-friendly web applications. I focus on understanding real business problems, planning effective solutions, and turning them into working products. I enjoy collaborating, managing requirements, and making sure projects are delivered with clarity and purpose. 
             </p>
             <p className="about-text">
-              My technical expertise includes HTML, CSS, JavaScript, TypeScript, Bootstrap, 
-              Tailwind CSS, React.js, Express.js, MongoDB, and Firebase. I enjoy creating 
-              responsive and user-friendly web applications.
+              My mission is to help businesses build a strong online presence through websites that engage, convert, and provide seamless navigation. I thrive on problem-solving and staying up-to-date with the latest web design trends to ensure my clients' digital presence stays ahead of the curve. Let's collaborate to bring your vision to life and create a website that stands out.
             </p>
-            <p className="about-text">
+            {/* <p className="about-text">
               Currently looking for opportunities as a Frontend Developer or Full Stack Developer 
               where I can contribute to meaningful projects and continue growing my skills.
-            </p>
+            </p> */}
           </div>
         </div>
       </section>
