@@ -136,7 +136,7 @@ const Portfolio = () => {
           <div className="hero-container">
             <div className="hero-content">
               <h1 className="hero-title">
-                Hi, I'm <span className="gradient-text">Hasnain Shaikh</span>
+                Hi, I'm <span  className="gradient-text">Hasnain Shaikh</span>
               </h1>
               <h2 className="hero-subtitle">Full Stack Web Developer (MERN Focused)</h2>
               <p className="hero-tagline">
@@ -151,18 +151,22 @@ const Portfolio = () => {
                   Let's Connect
                 </button>
                 {/* Social Media Bar - Same as before */}
-        <a href="https://www.linkedin.com/in/hasnain-shaikh-502008339" className="social-link" title="LinkedIn">
+        <div className="social-1">
+          <a href="https://www.linkedin.com/in/hasnain-shaikh-502008339" className="social-link" title="LinkedIn">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-label="LinkedIn">
            <rect x="1" y="1" width="22" height="22" rx="4" fill="#0A66C2"/>
           <path fill="#ffffff" d="M6.2 7.2a1.7 1.7 0 1 1 0-3.4 1.7 1.7 0 0 1 0 3.4ZM4.7 9.3h3v10.1h-3V9.3Zm6.6 0h2.9v1.4h.1c.4-.7 1.5-1.7 3.2-1.7 3.4 0 4 2.1 4 4.8v5.6h-3v-5c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7v5.1h-3V9.3Z"/>
           </svg>
         </a>
-        <a href="https://github.com/hasnain-shaikh-developer" className="social-link" title="GitHub">
+        </div>
+        <div className="social-2">
+          <a href="https://github.com/hasnain-shaikh-developer" className="social-link" title="GitHub">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-label="GitHub" viewBox="0 0 24 24">
   <rect width="24" height="24" fill="#000000" rx="4"/>
   <path fill="#ffffff" d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.5v-1.9c-3.2.7-3.9-1.5-3.9-1.5-.5-1.1-1.2-1.4-1.2-1.4-1-.7.1-.7.1-.7 1.1.1 1.6 1.1 1.6 1.1 1 .1.6 2.1 3.5 1.5.1-.7.4-1.1.7-1.4-2.6-.3-5.4-1.3-5.4-5.9 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.7.9 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.4 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.6.8.5A11.6 11.6 0 0 0 23.5 12C23.5 5.7 18.3.5 12 .5z"/>
 </svg>
         </a>
+        </div>
               </div>
             </div>
             <div className="hero-image">
