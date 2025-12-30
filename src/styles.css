@@ -787,3 +787,351 @@ section.visible {
     padding: 60px 0;
   }
 }
+
+/* ==================== */
+/* MOBILE WIDTH FIXES */
+/* ==================== */
+
+/* Small tablets aur large mobile devices (601px - 768px) */
+@media (max-width: 768px) {
+  .container {
+    max-width: 100% !important;
+    padding: 0 20px !important;
+  }
+  
+  /* Hero section ki width fix */
+  .hero-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 5px !important;
+  }
+  
+  .hero-title {
+    font-size: clamp(1.8rem, 5vw, 2.5rem) !important;
+    line-height: 1.2 !important;
+    margin-bottom: 15px !important;
+  }
+  
+  .hero-subtitle {
+    font-size: clamp(1rem, 4vw, 1.3rem) !important;
+    margin-bottom: 20px !important;
+  }
+  
+  .hero-tagline {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+    max-width: 100% !important;
+    padding: 0 5px !important;
+    margin-bottom: 30px !important;
+  }
+  
+  /* Profile image size adjust */
+  .profile-img {
+    width: 220px !important;
+    height: 220px !important;
+  }
+  
+  .profile-glow {
+    top: -18px !important;
+    left: -18px !important;
+    right: -18px !important;
+    bottom: -18px !important;
+  }
+  
+  /* Skills grid fix */
+  .skills-grid {
+    gap: 12px !important;
+    padding: 0 10px !important;
+  }
+  
+  .skill-chip {
+    padding: 10px 20px !important;
+    font-size: 15px !important;
+    min-width: 130px !important;
+    text-align: center !important;
+  }
+  
+  /* Project cards fix */
+  .project-card {
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 25px !important;
+  }
+  
+  .project-title {
+    font-size: 20px !important;
+  }
+  
+  .project-description {
+    font-size: 15px !important;
+  }
+  
+  /* Section padding reduce */
+  section {
+    padding: 70px 0 !important;
+  }
+  
+  .section-title {
+    font-size: clamp(1.8rem, 5vw, 2.2rem) !important;
+    margin-bottom: 50px !important;
+    padding: 0 15px !important;
+  }
+  
+  /* About text fix */
+  .about-text {
+    font-size: 16px !important;
+    padding: 0 10px !important;
+    line-height: 1.7 !important;
+  }
+}
+
+/* Small mobile devices (481px - 600px) */
+@media (max-width: 600px) {
+  .container {
+    padding: 0 18px !important;
+  }
+  
+  .hero-title {
+    font-size: clamp(1.7rem, 6vw, 2.2rem) !important;
+  }
+  
+  .hero-subtitle {
+    font-size: clamp(0.95rem, 4.5vw, 1.2rem) !important;
+  }
+  
+  .profile-img {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  
+  .skills-grid {
+    gap: 10px !important;
+  }
+  
+  .skill-chip {
+    padding: 9px 18px !important;
+    font-size: 14px !important;
+    min-width: 120px !important;
+  }
+  
+  .project-card {
+    padding: 22px !important;
+  }
+}
+
+/* Extra small mobile devices (320px - 480px) */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 16px !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+  }
+  
+  /* Navbar fix */
+  .nav-container {
+    padding: 12px 16px !important;
+  }
+  
+  .nav-logo {
+    font-size: 20px !important;
+  }
+  
+  .nav-logo span {
+    font-size: 28px !important;
+  }
+  
+  /* Hero section complete fix */
+  .hero-container {
+    gap: 40px !important;
+  }
+  
+  .hero-title {
+    font-size: clamp(1.6rem, 7vw, 2rem) !important;
+    margin-bottom: 12px !important;
+    padding: 0 !important;
+  }
+  
+  .hero-subtitle {
+    font-size: clamp(0.9rem, 5vw, 1.1rem) !important;
+    margin-bottom: 16px !important;
+    padding: 0 !important;
+  }
+  
+  .hero-tagline {
+    font-size: 15px !important;
+    padding: 0 !important;
+    margin-bottom: 25px !important;
+    line-height: 1.6 !important;
+  }
+  
+  /* Buttons width fix */
+  .hero-buttons {
+    flex-direction: column !important;
+    gap: 12px !important;
+    width: 100% !important;
+    align-items: center !important;
+  }
+  
+  .btn-primary, .btn-secondary {
+    width: 100% !important;
+    max-width: 280px !important;
+    margin: 0 auto !important;
+    padding: 14px 20px !important;
+    font-size: 15px !important;
+  }
+  
+  /* Profile image aur container fix */
+  .hero-image {
+    margin-top: 20px !important;
+  }
+  
+  .profile-container {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  
+  .profile-img {
+    width: 180px !important;
+    height: 180px !important;
+  }
+  
+  .profile-glow {
+    top: -15px !important;
+    left: -15px !important;
+    right: -15px !important;
+    bottom: -15px !important;
+  }
+  
+  /* Section padding aur width fix */
+  section {
+    padding: 50px 0 !important;
+    width: 100% !important;
+    overflow: hidden !important;
+  }
+  
+  .section-title {
+    font-size: clamp(1.5rem, 7vw, 1.8rem) !important;
+    margin-bottom: 40px !important;
+    padding: 0 10px !important;
+  }
+  
+  /* Skills chips width fix */
+  .skills-grid {
+    gap: 8px !important;
+    padding: 0 5px !important;
+    justify-content: center !important;
+  }
+  
+  .skill-chip {
+    padding: 8px 16px !important;
+    font-size: 13px !important;
+    min-width: 110px !important;
+    flex: 1 !important;
+    max-width: 45% !important;
+    text-align: center !important;
+  }
+  
+  /* Projects grid width fix */
+  .projects-grid {
+    padding: 0 5px !important;
+  }
+  
+  .project-card {
+    padding: 20px !important;
+    margin-bottom: 20px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+  
+  .project-title {
+    font-size: 18px !important;
+  }
+  
+  .project-description {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+  }
+  
+  .project-buttons .btn-primary,
+  .project-buttons .btn-secondary {
+    padding: 10px 16px !important;
+    font-size: 13px !important;
+  }
+  
+  /* Contact section width fix */
+  .contact-text {
+    font-size: 16px !important;
+    padding: 0 10px !important;
+    margin-bottom: 30px !important;
+  }
+  
+  .contact-link {
+    font-size: 16px !important;
+    padding: 12px 20px !important;
+    width: 100% !important;
+    max-width: 300px !important;
+    justify-content: center !important;
+  }
+  
+  /* Frontend title fix */
+  .frontend {
+    font-size: clamp(1.2rem, 5vw, 1.5rem) !important;
+    margin-bottom: 40px !important;
+    padding: 0 10px !important;
+  }
+  
+  /* Text overflow prevention */
+  * {
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+  }
+  
+  h1, h2, h3, h4, p, span, div {
+    max-width: 100% !important;
+    overflow: hidden !important;
+  }
+}
+
+/* Extra extra small devices (320px se chota) */
+@media (max-width: 375px) {
+  .container {
+    padding: 0 14px !important;
+  }
+  
+  .hero-title {
+    font-size: clamp(1.5rem, 8vw, 1.8rem) !important;
+  }
+  
+  .hero-subtitle {
+    font-size: clamp(0.85rem, 5vw, 1rem) !important;
+  }
+  
+  .hero-tagline {
+    font-size: 14px !important;
+  }
+  
+  .profile-img {
+    width: 160px !important;
+    height: 160px !important;
+  }
+  
+  .skill-chip {
+    min-width: 100px !important;
+    padding: 7px 14px !important;
+    font-size: 12px !important;
+    max-width: 48% !important;
+  }
+  
+  .project-card {
+    padding: 18px !important;
+  }
+  
+  .section-title {
+    font-size: clamp(1.3rem, 7vw, 1.6rem) !important;
+  }
+  
+  .btn-primary, .btn-secondary {
+    max-width: 260px !important;
+    padding: 12px 18px !important;
+  }
+}
