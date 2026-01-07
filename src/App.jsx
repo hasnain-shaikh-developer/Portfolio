@@ -57,41 +57,41 @@ const Portfolio = () => {
       liveDemo: 'https://mobile-crud-app.vercel.app/',
       github: 'https://github.com/hasnain-shaikh-developer/Mobile-Crud-App'
     },
-    {
-      title: 'FilmFlix – Explore Movies Instantly',
-      description: 'A simple yet powerful app that brings movie information to your fingertips — search, explore, and enjoy cinematic data instantly.',
-      tech: ['React'],
-      liveDemo: 'https://movie-search-app-qfg1.vercel.app/',
-      github: 'https://github.com/hasnain-shaikh-developer/Movie-Search-App'
-    },
-    {
-      title: 'FoodieSearch – Find Your Next Recipe',
-      description: 'A simple yet powerful app for discovering recipes quickly — perfect for food lovers who enjoy exploring new dishes online.',
-      tech: ['React'],
-      liveDemo: 'https://recipe-finder-app-virid.vercel.app/',
-      github: 'https://github.com/hasnain-shaikh-developer/Recipe-Finder-App'
-    },
-    {
-      title: 'WeatherNow – Real-Time Weather App',
-      description: 'A simple yet powerful weather app that displays current weather conditions and forecasts using live data fetching.',
-      tech: ['React'],
-      liveDemo: 'https://weather-app-phi-mocha-68.vercel.app/',
-      github: 'https://github.com/hasnain-shaikh-developer/Weather-App'
-    },
-    {
-      title: 'TimeNow – Real-Time Digital Clock',
-      description: 'A sleek and responsive digital clock that displays real-time hours, minutes, and seconds with smooth transitions and clean UI design.',
-      tech: ['React'],
-      liveDemo: 'https://digital-clock-iota-ten.vercel.app/',
-      github: 'https://github.com/hasnain-shaikh-developer/Digital-Clock'
-    },
-    {
-      title: 'Smart Counter App',
-      description: 'A simple yet engaging counter app created to highlight elegant design and efficient logic handling using modern web technologies.',
-      tech: ['React'],
-      liveDemo: 'https://counter-app-smoky-theta.vercel.app/',
-      github: 'https://github.com/hasnain-shaikh-developer/Counter-App'
-    },
+    // {
+    //   title: 'FilmFlix – Explore Movies Instantly',
+    //   description: 'A simple yet powerful app that brings movie information to your fingertips — search, explore, and enjoy cinematic data instantly.',
+    //   tech: ['React'],
+    //   liveDemo: 'https://movie-search-app-qfg1.vercel.app/',
+    //   github: 'https://github.com/hasnain-shaikh-developer/Movie-Search-App'
+    // },
+    // {
+    //   title: 'FoodieSearch – Find Your Next Recipe',
+    //   description: 'A simple yet powerful app for discovering recipes quickly — perfect for food lovers who enjoy exploring new dishes online.',
+    //   tech: ['React'],
+    //   liveDemo: 'https://recipe-finder-app-virid.vercel.app/',
+    //   github: 'https://github.com/hasnain-shaikh-developer/Recipe-Finder-App'
+    // },
+    // {
+    //   title: 'WeatherNow – Real-Time Weather App',
+    //   description: 'A simple yet powerful weather app that displays current weather conditions and forecasts using live data fetching.',
+    //   tech: ['React'],
+    //   liveDemo: 'https://weather-app-phi-mocha-68.vercel.app/',
+    //   github: 'https://github.com/hasnain-shaikh-developer/Weather-App'
+    // },
+    // {
+    //   title: 'TimeNow – Real-Time Digital Clock',
+    //   description: 'A sleek and responsive digital clock that displays real-time hours, minutes, and seconds with smooth transitions and clean UI design.',
+    //   tech: ['React'],
+    //   liveDemo: 'https://digital-clock-iota-ten.vercel.app/',
+    //   github: 'https://github.com/hasnain-shaikh-developer/Digital-Clock'
+    // },
+    // {
+    //   title: 'Smart Counter App',
+    //   description: 'A simple yet engaging counter app created to highlight elegant design and efficient logic handling using modern web technologies.',
+    //   tech: ['React'],
+    //   liveDemo: 'https://counter-app-smoky-theta.vercel.app/',
+    //   github: 'https://github.com/hasnain-shaikh-developer/Counter-App'
+    // },
   ];
 
   return (
