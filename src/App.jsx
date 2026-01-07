@@ -46,7 +46,7 @@ const Portfolio = () => {
     {
       title: 'MoneyFlow – Expense Tracker',
       description: 'A modern finance tool that helps users track income and expenses with real-time balance updates and a clean, intuitive interface.',
-      tech: ['React'],
+      tech: ['HTML' , 'CSS' , 'JAVASCRIPT'],
       liveDemo: 'https://cashtrack-chi.vercel.app/',
       github: 'https://github.com/hasnain-shaikh-developer/Finance-Tools'
     },
